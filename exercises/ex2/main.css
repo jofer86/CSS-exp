@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+div {
+  border: 3px red solid;
+  padding: 20px 10px 8px 15px;
+  margin: 10px 15px 7px 12px;
+  display: inline-block;
+}
+.main-box {
+  height: 300px;
+  width: 50%;
+  visibility: hidden;
+  height: 100%;
+}
+
+.mb2:hover {
+  background: black;
+  font-weight: bold;
+  color: white;
+}
