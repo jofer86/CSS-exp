@@ -1,7 +1,0 @@
-{
-  // Controls the font family.
-  "editor.fontFamily": "Fira Code",
-
-  // Controls the font size.
-  "editor.fontSize": 14
-}

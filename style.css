@@ -173,3 +173,19 @@ body {
 .art-div {
   text-align: center;
 }
+
+.features-li{
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+  color: #ff1b68;
+  padding: 10px;
+  background: #55192d;
+  margin:5px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(250, 249, 249, 0.5);
+}
+
+.features-ul{
+  text-align: center;
+}
