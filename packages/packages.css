@@ -1,0 +1,73 @@
+main {
+  padding-top: 25px;
+}
+
+.plan {
+  border: 4px solid #0e4f1f;
+  width: 80%;
+  margin: 20px 0;
+  text-align: left;
+  border-left: none;
+}
+
+.plan.plus {
+  background: rgba(151, 246, 211, 0.95);
+}
+
+.plan.free {
+  background: rgba(188, 248, 225, 0.95);
+  float: right;
+  border: 4px solid #0e4f1f;
+  border-right: none;
+  text-align: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.plan.premium {
+  background: rgb(8, 85, 14, 0.95);
+}
+
+.plan__h1 {
+  color: black;
+  font-weight: bold;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.plan__h1.premium {
+  color: white;
+}
+
+.plan__h2 {
+  color: grey;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.plan__p {
+  color: black;
+  padding: 10px;
+  background: white;
+  border: 2px solid black;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.plan__a {
+  text-decoration: none;
+}
+
+.plan:hover,
+.plan:active {
+  border: 5px solid red;
+  border-left: none;
+}
+
+.plan.free:hover,
+.plan.free:active {
+  border: 5px solid red;
+  border-right: none;
+}
